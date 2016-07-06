@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<include layout="@layout/include_delete_bar"-->
+    <!--android:id="@+id/delete_bar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_height="48dp"-->
+    <!--android:visibility="gone"-->
+    <!--android:background="#11ffffff"/>-->
+
+    <ListView
+        android:id="@+id/lv_bookshelf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:scrollbars="none" />
+</RelativeLayout>

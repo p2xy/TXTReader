@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#ee000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/iv_up"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="center"
+            android:background="@drawable/selector_button"
+            android:src="@drawable/ic_chapter_up_24dp" />
+
+        <SeekBar
+            android:id="@+id/sb_progress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/iv_down"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="center"
+            android:background="@drawable/selector_button"
+            android:src="@drawable/ic_chapter_down_24dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#55ffffff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_outline"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_button"
+            android:drawableTop="@drawable/ic_toc_24dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="目录"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="#99ffffff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_mark"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/selector_button"
+            android:drawableTop="@drawable/ic_bookmark_24dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="书签"
+            android:textColor="#99ffffff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_setting"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_button"
+            android:drawableTop="@drawable/ic_settings_24dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="设置"
+            android:textColor="#99ffffff"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>

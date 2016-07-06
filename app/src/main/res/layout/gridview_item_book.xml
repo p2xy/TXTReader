@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="90dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/book_cover_iv"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#ffffffff"
+        android:src="@drawable/common_ic_googleplayservices" />
+
+    <TextView
+        android:id="@+id/book_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/book_cover_iv"
+        android:gravity="center_horizontal"
+        android:text="这是一本书"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <CheckBox
+        style="@style/Base.Widget.AppCompat.CompoundButton.CheckBox"
+        android:id="@+id/delete_select_cb"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentRight="true"
+        android:clickable="false"
+        android:focusable="false" />
+</RelativeLayout>
+
+
+

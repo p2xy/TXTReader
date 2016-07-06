@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/book_show_mode"
+        android:icon="@drawable/ic_view_grid_24dp"
+        app:showAsAction="ifRoom|withText"
+        android:title="显示方式" />
+    <item
+        android:id="@+id/add_book"
+        android:icon="@drawable/ic_add_24dp"
+        app:showAsAction="ifRoom"
+        android:title="添加" />
+
+    <item
+        app:showAsAction="ifRoom"
+        android:title="全选"
+        android:id="@+id/done_all"
+        android:icon="@drawable/ic_done_all_24dp"/>
+    <item
+        android:id="@+id/del_book"
+        android:title="删除"
+        app:showAsAction="ifRoom" />
+
+</menu>
